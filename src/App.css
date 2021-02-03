@@ -1,38 +1,113 @@
+.img-keyboard {
+  width: 150px;
+  height: 100px;
+}
+
+.text {
+  color: #ff5155;
+  margin: auto;
+}
+
+.player-form {
+  width: 300px;
+}
+
+/* .player-form-element {
+  width: 300px;
+  height: 60px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+} */
 .App {
   text-align: center;
 }
+body{
+    background-image: url(./images/fast-fingers-background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center !important;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
   }
+.input-name {
+  width: 350px;
+  height: 50px;
+  background-color: #ffff;
+  opacity: 0.59;
+  border-radius: 5px;
+  box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.8);
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #032228;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.select-level {
+  width: 350px;
+  height: 50px;
+  margin-right: 0;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.8);
+  border: solid 1px #ffffff;
+  color: #97a5a7;
+  padding-left: 22px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
-.App-link {
-  color: #61dafb;
+.app {
+  height: 100%;
+  overflow-x: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.start-game-element {
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  object-position: center;
+  vertical-align: middle;
+}
+
+.div-title {
+  margin-top: 7%;
+}
+
+.btn-start-game {
+  background-color: transparent;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  color: #ff5155;
+  padding-right: 20px;
+  margin-top: 30px;
+}
+
+.btn-start-game:focus {
+  border: none;
+  outline: none;
+}
+
+.icon-play {
+  max-width: 4rem;
+  max-height: 4rem;
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+
+.input-error {
+  color: red;
+}
+
+.btn-quit-game {
+  background-color: transparent;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  color: #ff5155;
 }
